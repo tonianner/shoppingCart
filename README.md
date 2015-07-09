@@ -1,6 +1,4 @@
-Javascript and Jquery Exercise - Shopping Cart
+[Answer] Javascript and Jquery Exercise - Shopping Cart
 =============================
 
-1. Fork the project on Github
-2. Clone the project to your computer
-3. Make the shopping cart total price calculator using Javascript and Bootstrap
+This is the solution to the lab.
