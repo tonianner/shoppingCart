@@ -8,13 +8,36 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>` 
+    <script src="http://bitballoon.scdn4.secure.raxcdn.com/js/154250dec1db581c20ac51c1f88e5ed4b9e6de18/js/application.js"></script>
     <script src="js/application.js"></script>
 
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/custom.css" rel="stylesheet">
   </head>
   <body>
-    
+    <h1>Shopping Cart</h1>
+  <div>
+    <table id="list">
+      <!-- insert rows here -->
+      
+      <!-- user inputs below to create list -->
+      <tr id="inputs">
+        <td><input id="nameInput" type="text"></td>
+        <td><input id="priceInput" type="text"></td>
+        <td class="values"> <button type="submit" id="createButton">Create</button></td>
+      </tr>
+    </table>
+  </div>
+        
+        
+        
+      </form>
+    </section>
+
+    <section id="grandTotal">
+      <h1>Grand Total</h1>
+      <h2 id="updatePrice">$0.00</h2>
+    </section>
   </body>
 </html>

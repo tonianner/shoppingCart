@@ -1,0 +1,17 @@
+body {
+	margin-left: 10px;
+}
+
+td{
+	width: 250px;
+	height: 40px;
+}
+
+td.name, td.price, td.subTotalPrice {
+	width: 160px;
+}
+
+td.subTotalPrice {
+	text-align: center;
+}
+
